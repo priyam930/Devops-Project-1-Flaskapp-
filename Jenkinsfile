@@ -26,7 +26,7 @@ pipeline {
         stage('📦 Install Python Dependencies') {
             steps {
                 echo "📦 Installing Python dependencies..."
-                sh 'sudo pip install -r requirements.txt'
+                sh 'sudo pip3 install -r requirements.txt'
             }
         }
 
