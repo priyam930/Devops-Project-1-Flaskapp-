@@ -19,7 +19,7 @@ def health_check():
 def get_users():
     users = [
         {"id": 1, "name": "Jibbran", "role": "DevOps Engineer"},
-        {"id": 2, "name": "Ayesha", "role": "AI Engineer"}
+        {"id": 2, "name": "Jack", "role": "AI Engineer"}
     ]
     return jsonify(users)
 
