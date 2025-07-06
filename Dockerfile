@@ -8,7 +8,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN dnf install python3-pip && pip3 install --no-cache-dir -r requirements.txt
 
 # Copy app files
 COPY . .
