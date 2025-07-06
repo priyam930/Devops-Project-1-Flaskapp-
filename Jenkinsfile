@@ -16,10 +16,17 @@ pipeline {
             }
         }
 
+            stage('📦 Installing pip command') {
+            steps {
+                echo "📦 Installing Pip command..."
+                sh 'sudo yum install python3-pip -y'
+            }
+        }
+
         stage('📦 Install Python Dependencies') {
             steps {
                 echo "📦 Installing Python dependencies..."
-                sh 'pip install -r requirements.txt'
+                sh 'sudo pip install -r requirements.txt'
             }
         }
 
