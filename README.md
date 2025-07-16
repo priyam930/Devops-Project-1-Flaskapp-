@@ -28,13 +28,6 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [Testing](#testing)
-- [Project Structure](#project-structure)
-  - [`app.py`](#1-apppy)
-  - [`Dockerfile`](#2-dockerfile)
-  - [`Jenkinsfile`](#3-jenkinsfile)
-  - [`requirements.txt`](#4-requirementstxt)
-  - [`test_app.py`](#5-test_apppy)
-
 ---
 
 ## 🧠 Overview
